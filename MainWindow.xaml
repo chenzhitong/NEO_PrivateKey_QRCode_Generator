@@ -1,0 +1,14 @@
+﻿<Window x:Class="NEO_PrivateKey_QRCode_Generator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NEO_PrivateKey_QRCode_Generator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="124.737" Width="330.526">
+    <StackPanel>
+        <TextBlock Height="20" Width="80" Margin="0 10 0 0">数量</TextBlock>
+        <TextBox Name="Count" Height="20" Width="80">1</TextBox>
+        <Button Click="Button_Click" Height="20" Width="80" Margin="5">生成</Button>
+    </StackPanel>
+</Window>
